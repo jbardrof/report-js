@@ -1,0 +1,28 @@
+{
+  "name": "report-js",
+  "version": "0.1.0",
+  "description": "Visualized data reports for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require test/support/env --growl --reporter spec --colors --check-leaks test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jbardrof/report-js.git"
+  },
+  "keywords": [
+    "reporting",
+    "data",
+    "visualization"
+  ],
+  "author": "Jeremy Bardrof <jbardrof@gmail.com> (http://madijen.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jbardrof/report-js/issues"
+  },
+  "homepage": "https://github.com/jbardrof/report-js",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.1.0"
+  }
+}
